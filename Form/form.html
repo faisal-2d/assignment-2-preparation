@@ -10,9 +10,22 @@
     <h1>Registrarion Form</h1>
     <form action="">
         <legend>Your Name</legend>
-        <input type="text" name="" id="" placeholder="Your Full Name">
-        <legend>Your Phone Number</legend>
-        <input type="tel" name="" id="" placeholder="+880 1883 998 081">
+        <input type="text" name="" id="" placeholder="Your Full Name" required>
+        <legend>Your WhatsApp Number</legend>
+        <input type="tel" name="" id="" placeholder="+880 1883 998 081" required>
+        <legend>Select your gender</legend>
+        <label for="male"><input type="radio" name="gender" id="male">Male</label><br>
+        <label for="female"><input type="radio" name="gender" id="female">Female</label><br>
+        <fieldset>
+            <legend>Select your course</legend>
+            <label for="course-1"><input type="checkbox" name="" id="course-1">Course-1</input></label><br>
+            <label for="course-2"><input type="checkbox" name="" id="course-2">Course-2</input></label><br>
+            <label for="course-3"><input type="checkbox" name="" id="course-3">Course-3</input></label><br>
+        </fieldset>
+        <textarea name="comment" id="" cols="30" rows="10" placeholder="Do Your have any Comment? We want to hear from you!"></textarea><br>
+        <button type="submit">submit form</button>
+        <button type="reset">reset all</button>
+            
     </form>
 </body>
 </html>
